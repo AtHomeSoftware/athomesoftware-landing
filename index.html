@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>At Home Software</title>
+<meta name="description" content="At Home Software builds small, warm tools for the big work of running a household. Our first is Haven Chart — chores, calendar, rewards, budgeting, and meals, in one place." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="brand">
+    <svg class="brand-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+      <path d="M4 13.5L14 5L24 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6.5 12V23H21.5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M11.5 23V17H16.5V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>At Home Software</span>
+  </a>
+  <nav class="site-nav">
+    <a href="#about">About</a>
+    <a href="#software">Software</a>
+    <a href="https://havenchart.app" class="nav-cta">Haven Chart ↗</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">At Home Software</p>
+      <h1>Software for a life<br>well lived at <em>home</em>.</h1>
+      <p class="hero-sub">We're a two&#8209;person shop building small, warm tools for the big, unglamorous work of running a household — the chores, the calendar, the budget, the "what's for dinner."</p>
+      <div class="hero-actions">
+        <a href="#software" class="btn btn-primary">See our software</a>
+        <a href="#about" class="btn btn-ghost">Who we are</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 460 400" class="house-diagram" role="img" aria-label="Illustration of a house cross-section with four rooms, each representing a Haven Chart feature: chores, calendar, budget, and meals.">
+        <!-- roofline -->
+        <path class="house-line" d="M40 150 L230 30 L420 150" />
+        <!-- outer walls -->
+        <path class="house-line" d="M60 150 V370 H400 V150" />
+        <!-- floor divider -->
+        <path class="house-line" d="M60 260 H400" />
+        <!-- wall divider -->
+        <path class="house-line" d="M230 150 V370" />
+        <!-- chimney -->
+        <path class="house-line" d="M330 60 V110" />
+
+        <!-- room: chores (top-left) -->
+        <g class="room room-chores">
+          <rect x="60" y="150" width="170" height="110" fill="transparent"/>
+          <g transform="translate(112,175)">
+            <path d="M0 60 L6 8 M6 8 L-6 -4 M6 8 L18 -4" stroke="currentColor" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <circle cx="0" cy="66" r="4" fill="currentColor"/>
+          </g>
+          <text x="145" y="235" class="room-label">Chores</text>
+        </g>
+
+        <!-- room: calendar (top-right) -->
+        <g class="room room-calendar">
+          <rect x="230" y="150" width="170" height="110" fill="transparent"/>
+          <g transform="translate(285,178)">
+            <rect x="0" y="6" width="46" height="40" rx="4" stroke="currentColor" stroke-width="3.5" fill="none"/>
+            <path d="M0 18 H46" stroke="currentColor" stroke-width="3.5"/>
+            <path d="M12 0 V12 M34 0 V12" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+            <rect x="10" y="26" width="8" height="8" fill="currentColor"/>
+          </g>
+          <text x="315" y="235" class="room-label">Calendar</text>
+        </g>
+
+        <!-- room: budget (bottom-left) -->
+        <g class="room room-budget">
+          <rect x="60" y="260" width="170" height="110" fill="transparent"/>
+          <g transform="translate(120,290)">
+            <path d="M28 24c0 8-8 12-16 12S-4 34-4 26 4 12 12 12s16 2 16 12z" stroke="currentColor" stroke-width="3.5" fill="none"/>
+            <circle cx="20" cy="16" r="2.5" fill="currentColor"/>
+            <path d="M-4 26 h-6" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+          </g>
+          <text x="145" y="345" class="room-label">Budget</text>
+        </g>
+
+        <!-- room: meals (bottom-right) -->
+        <g class="room room-meals">
+          <rect x="230" y="260" width="170" height="110" fill="transparent"/>
+          <g transform="translate(295,292)">
+            <path d="M0 14 a18 12 0 0 1 36 0 z" stroke="currentColor" stroke-width="3.5" fill="none"/>
+            <path d="M-4 14 H40" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M18 0 V-8" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+          </g>
+          <text x="315" y="345" class="room-label">Meals</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-inner">
+      <p class="eyebrow">About us</p>
+      <h2>Built by two brothers who split the chore chart growing up — and never quite agreed on whose turn it was.</h2>
+      <p class="about-body">At Home Software is our small, independent studio. No investors, no roadmap slideware — just two people who like building things for houses and the people who keep them running. We're starting with the problems we know best: our own kitchen table, our own shared calendar, our own "did the trash actually go out" arguments.</p>
+    </div>
+  </section>
+
+  <section id="software" class="software">
+    <div class="software-header">
+      <p class="eyebrow">Our software</p>
+      <h2>One home, one place to run it.</h2>
+    </div>
+
+    <div class="product-card">
+      <div class="product-top">
+        <div class="product-mark" aria-hidden="true">
+          <svg width="40" height="40" viewBox="0 0 28 28" fill="none">
+            <path d="M4 13.5L14 5L24 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6.5 12V23H21.5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.5 23V17H16.5V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Haven Chart</h3>
+          <p class="product-tag">The everyday operating system for your household.</p>
+        </div>
+      </div>
+
+      <p class="product-desc">Chores, the family calendar, chore rewards, budgeting, and meal prep — Haven Chart keeps the whole household in one shared view, so nobody has to ask "wait, whose job was that?"</p>
+
+      <ul class="feature-chips">
+        <li>Chores</li>
+        <li>Family calendar</li>
+        <li>Chore rewards</li>
+        <li>Budgeting</li>
+        <li>Meal prep</li>
+      </ul>
+
+      <a href="https://havenchart.app" class="btn btn-primary product-cta">Visit havenchart.app ↗</a>
+    </div>
+
+    <div class="product-card product-card-ghost">
+      <p class="ghost-label">More rooms, more tools</p>
+      <p class="ghost-body">Haven Chart is the first thing we've moved into the At Home Software family. We're building more from here — one household problem at a time.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div>
+    <span class="brand-mark-small" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 28 28" fill="none">
+        <path d="M4 13.5L14 5L24 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6.5 12V23H21.5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M11.5 23V17H16.5V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    <span>At Home Software</span>
+  </div>
+  <p>Made by two brothers, at home.</p>
+</footer>
+
+</body>
+</html>
