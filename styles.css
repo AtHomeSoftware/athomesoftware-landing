@@ -152,50 +152,18 @@ a { color: inherit; }
 }
 .btn-ghost:hover { border-color: var(--ink); }
 
-/* ---------- hero emoji grid ---------- */
+/* ---------- hero logo ---------- */
 
 .hero-art { display: flex; justify-content: center; }
 
-.emoji-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+.hero-logo {
+  display: block;
   width: 100%;
-  max-width: 420px;
-}
-
-.emoji-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  aspect-ratio: 1;
-  border-radius: 24px;
+  max-width: 480px;
+  height: auto;
+  border-radius: 28px;
   border: 1px solid var(--line);
-  background: var(--oat-light);
-  transition: transform 0.2s ease;
 }
-
-.emoji-tile:hover { transform: translateY(-3px); }
-
-.emoji-tile-icon {
-  font-size: clamp(2.2rem, 6vw, 3rem);
-  line-height: 1;
-}
-
-.emoji-tile-label {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-}
-
-.tile-chores { background: color-mix(in srgb, var(--ochre) 14%, var(--oat-light)); }
-.tile-calendar { background: color-mix(in srgb, var(--sage) 16%, var(--oat-light)); }
-.tile-budget { background: color-mix(in srgb, var(--plum) 12%, var(--oat-light)); }
-.tile-meals { background: color-mix(in srgb, var(--ochre) 20%, var(--oat-light)); }
 
 /* ---------- teaser cards (homepage) ---------- */
 
