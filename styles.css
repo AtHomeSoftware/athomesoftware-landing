@@ -65,7 +65,7 @@ a { color: inherit; }
   letter-spacing: -0.01em;
 }
 
-.brand-mark { font-size: 1.4rem; line-height: 1; flex-shrink: 0; }
+.brand-mark { display: block; width: 56px; height: 56px; border-radius: 12px; flex-shrink: 0; }
 
 .site-nav {
   display: flex;
@@ -426,7 +426,7 @@ a { color: inherit; }
   color: var(--ink);
 }
 
-.brand-mark-small { font-size: 1.1rem; }
+.brand-mark-small { display: block; width: 32px; height: 32px; border-radius: 7px; flex-shrink: 0; }
 
 .site-footer p { margin: 0; font-family: var(--font-mono); font-size: 0.8rem; }
 
